@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DH-2022</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>    
+    <div id="frame1">
+        <div class="bgrLogo"></div>
+        
+        <div class="z2 imgBigJS imgBig_2 dspn" onclick="imgSmaller()"></div>
+        <img class="z2 imgBigJS imgBig dspn" onclick="imgSmaller()">
+        <div class="z2 explaine dspn"></div>
+
+        <div class="z1 topbar"></div>
+        <div class="z1 topbar topbar_real">
+            <embed src="./assets/m.mp3" loop="true" autostart="true" width="2"
+            height="0">
+            <div class="infoQ">hmmm</div>
+            <div class="logo">
+                <div class="logo_1"></div>
+                <div class="logo_2"></div>
+            </div>
+        </div>
+        
+        <!-- upper - basic - vars[0] -->
+        <div class="z1 upper js_minimize_2">
+            <img src="" alt="" class="dspn" onclick="imgBigger()">
+            <div class="content"></div>
+        </div>
+
+        <!-- lower - basic - vars[1] / lower[0] --> 
+        
+        <div class="z1 lower js_minimize_2">
+            <div class="var var--1" onclick="test3()"></div>
+            <div class="var var--2" onclick="test3()"></div>
+            <div class="var var--3" onclick="test3()"></div>
+            <div class="var var--4" onclick="test3()"></div>
+        </div>
+
+        <!-- lower - TXT - vars[2] / lower[1]  -->
+        <div class="z1 lower js_minimize_2 dspn">
+            <div class="var_txt" onclick="test4()"></div>
+        </div>
+        
+        <!-- botbar - btn -->
+        <div class="botbar"></div>
+        <div class="botbar botbar_real">
+            <div class="btn bnt_left" onclick="test2(-1)"></div>
+            <div class="btn bnt_right" onclick="test(1)"></div>
+            <div class="btn bnt_exp" onclick="exp()"></div>
+        </div>
+    </div>
+
+    <audio src="./assets/m.mp3" autoplay loop></audio>
+</body>
+</html>
+<script src="./assets/array.js"></script>
+<script src="./assets/sc.js"></script>
