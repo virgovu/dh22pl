@@ -204,3 +204,10 @@ if (promise !== undefined) {
     
   });
 }
+
+function start() {
+    local = document.body.querySelector('.landingPage');
+    local.classList.add("js_minimize");
+    frame1.classList.remove("dspn");
+    setTimeout(function() {local.classList.add("dspn"); frame1.classList.add("opa");}, 600);
+};
