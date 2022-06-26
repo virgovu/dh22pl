@@ -302,6 +302,20 @@ body {
     animation-delay: .3s;
 }
 
+.wrongAns {
+    animation: wrAns;
+    animation-duration: .1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .4s;;
+}
+
+@keyframes wrAns {
+    100% {
+        background-color: #ccc;
+    }
+}
+
 @keyframes rAns {
     0% {
         background-color: #45a3e5

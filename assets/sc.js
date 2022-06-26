@@ -39,10 +39,14 @@ function test(x) {
         
         varTxt.innerHTML = '';
         varTxt.classList.remove("rightAns");    
-        varA.classList.remove("rightAns");    
-        varB.classList.remove("rightAns");    
-        varC.classList.remove("rightAns");    
-        varD.classList.remove("rightAns");    
+        varA.classList.remove("rightAns");
+        varA.classList.remove("wrongAns");
+        varB.classList.remove("rightAns");
+        varB.classList.remove("wrongAns");
+        varC.classList.remove("rightAns");
+        varC.classList.remove("wrongAns");
+        varD.classList.remove("rightAns");
+        varD.classList.remove("wrongAns");
 
         
         // 01
@@ -156,6 +160,9 @@ function test2(x) {
 
 function test3() {
     varAll[answers[i][4]].classList.add("rightAns");
+    varAll[answers[i][5]].classList.add("wrongAns");
+    varAll[answers[i][6]].classList.add("wrongAns");
+    varAll[answers[i][7]].classList.add("wrongAns");
 };
 
 function test4() {

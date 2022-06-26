@@ -45,26 +45,26 @@ var questions = [
 ];
 
 var answers = [
-    ['Nhất trí', 'Đồng chí', 'Thanh niên làm theo lời bác', 'Khuyên thanh niên', 3],
-    ['1010, Đại La'],
+    ['Nhất trí', 'Đồng chí', 'Thanh niên làm theo lời bác', 'Khuyên thanh niên', 3, 0, 1, 2],
+    ['<p style="font-size: 30px">Năm 1010, vua Lý Thái Tổ quyết định dời đô từ Hoa Lư về Đại La (Sau này là thành Thăng Long).</p>'],
     ['Qua Đèo Ngang, Bà Huyện Thanh Quan'], //03
-    ['Nam quốc sơn hà', 'Bình Ngô đại cáo', 'Hịch Tướng sĩ', 'Tuyên ngôn độc lập', 0], //04
+    ['Nam quốc sơn hà', 'Bình Ngô đại cáo', 'Hịch Tướng sĩ', 'Tuyên ngôn độc lập', 0, 1, 2, 3], //04
     ['Văn Hậu'], //05
-    ['2016', '2017', '2018', '2019', 1], //06
-    ['Hồ Ba Bể, Bắc Kạn','Hồ Dầu Tiếng - Tây Ninh','Hồ Lắk,Đắk Lắk','Hồ Biển Lạc, Bình Thuận', 0], //07
-    ['1','2','3','4', 3], //08
-    ['Chủ tịch Hồ Chí Minh','Đảng Cộng sản Việt Nam','Cả A và B đều sai','Cả A và B đều đúng', 3], //09
-    ['Lý Tự Trọng','Nguyễn Văn Trỗi','Võ Nguyên Giáp','Phan Bội Châu', 0], //10
-    ['Chiến dịch Đường 14-Phước Long','Chiến dịch Tây Nguyên','Chiến dịch Hồ Chí Minh','Chiến dịch Điện Biên Phủ', 2], //11
-    ['Người lính đầu tiên cắm lá cờ chiến thắng trên nóc Dinh Độc Lập','Người lính đầu tiên lái xe tăng húc đổ cổng Dinh Độc Lập.','Người lính đã bắn chết vị tổng thống cuối cùng chính quyền Mỹ-Ngụy','Đáp án khác', 0], //12
+    ['2016', '2017', '2018', '2019', 1, 2, 3, 0], //06
+    ['Hồ Ba Bể, Bắc Kạn','Hồ Dầu Tiếng - Tây Ninh','Hồ Lắk,Đắk Lắk','Hồ Biển Lạc, Bình Thuận', 0, 1, 2, 3], //07
+    ['1','2','3','4', 3, 0, 1, 2], //08
+    ['Chủ tịch Hồ Chí Minh','Đảng Cộng sản Việt Nam','Cả A và B đều sai','Cả A và B đều đúng', 3, 0, 1, 2], //09
+    ['Lý Tự Trọng','Nguyễn Văn Trỗi','Võ Nguyên Giáp','Phan Bội Châu', 0, 1, 2, 3], //10
+    ['Chiến dịch Đường 14-Phước Long','Chiến dịch Tây Nguyên','Chiến dịch Hồ Chí Minh','Chiến dịch Điện Biên Phủ', 2, 3, 1, 0], //11
+    ['Người lính đầu tiên cắm lá cờ chiến thắng trên nóc Dinh Độc Lập','Người lính đầu tiên lái xe tăng húc đổ cổng Dinh Độc Lập.','Người lính đã bắn chết vị tổng thống cuối cùng chính quyền Mỹ-Ngụy','Đáp án khác', 0, 1, 2, 3], //12
     ['Chiến thắng Điện Biên Phủ'], //13
-    ['8', '9', '10','11', 3], //14
-    ['Cung điện Mùa Thu','Cung điện Mùa Hè','Cung điện mùa Đông','Quảng trường Đỏ', 2], //15
-    ['Thanh niên','Tranh đấu','Người cùng khổ','Giải phóng', 0], //16
-    ['Liên Xô, Mỹ, Anh','Anh, Pháp, Mỹ','Mỹ, Anh, Đức','Liên Xô, Mỹ, Pháp', 0], //17
-    ['Trân Châu Cảng','Mỹ thả bom nguyên tử xuống 2 thành phố của Nhật Bản','Đức tấn công Liên Xô','Đức tấn công Anh, Pháp', 0], //18
-    ['Nguyễn Thị Bình','Lê Đức Thọ','Hồ Chí Minh','Võ Nguyên Giáp', 1], //19
-    ['Bác đang cùng chúng cháu hành quân', 'Nối vòng tay lớn', 'Giải phóng quân ta đi', 'Như có Bác Hồ trong ngày vui đại thắng', 0] //20
+    ['8', '9', '10','11', 1, 2, 3, 0], //14
+    ['Cung điện Mùa Thu','Cung điện Mùa Hè','Cung điện mùa Đông','Quảng trường Đỏ', 2, 1, 0, 3], //15
+    ['Thanh niên','Tranh đấu','Người cùng khổ','Giải phóng', 0, 1, 2, 3], //16
+    ['Liên Xô, Mỹ, Anh','Anh, Pháp, Mỹ','Mỹ, Anh, Đức','Liên Xô, Mỹ, Pháp', 0, 1, 2, 3], //17
+    ['Trân Châu Cảng','Mỹ thả bom nguyên tử xuống 2 thành phố của Nhật Bản','Đức tấn công Liên Xô','Đức tấn công Anh, Pháp', 0, 1, 2, 3], //18
+    ['Nguyễn Thị Bình','Lê Đức Thọ','Hồ Chí Minh','Võ Nguyên Giáp', 1, 2, 0, 3], //19
+    ['Bác đang cùng chúng cháu hành quân', 'Nối vòng tay lớn', 'Giải phóng quân ta đi', 'Như có Bác Hồ trong ngày vui đại thắng', 0, 1, 2, 3] //20
 ];
 
 
