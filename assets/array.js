@@ -41,7 +41,7 @@ var questions = [
     ['<span>17. Hội nghị Ianta diễn ra vào tháng 2/1945 có sự góp mặt của 3 cường quốc, đó là những nước nào?</span>', ''], //17
     ['<span>18. Sự kiện nào buộc Mỹ phải tham chiến trong chiến tranh thế giới lần 2?</span>', ''], //18
     ['<span>19. Ai là người Việt Nam từng từ chối giải Nobel Hoà bình năm 1973?</span>', ''], //19
-    ['<span>20. Đây là những giai điệu trong bài hát nào?</span><br><strong style="font-size: 80%">"Đêm nay trên đường hành quân ra mặt trận,<br>trùng trùng đoàn quân tiến bước theo con đường của Bác.<br>Nở ngàn hoa chiến công ta dâng lên Người.<br>Dâng lên tới Đảng cả niềm tin chiếu sáng ngời.<br>Cờ sao quyết thắng lấp lánh soi sáng đường cháu đi.<br>Đi ta đi giải phóng miền Nam khi quê hương nhà vẫn còn bóng quân xâm lược,<br>thì ta còn chiến đấu quét sạch nó đi.<br>Lời Bác thúc giục chúng ta, chiến đấu cho quê nhà Nam Bắc hòa lời ca."<strong>', ''] //20
+    ['<span>20. Đây là những giai điệu trong bài hát nào?</span><br><strong style="font-size: 80%">"Đêm nay trên đường hành quân ra mặt trận,<br>trùng trùng đoàn quân tiến bước theo con đường của Bác.<br>Nở ngàn hoa chiến công ta dâng lên Người.<br>Dâng lên tới Đảng cả niềm tin chiếu sáng ngời.<br>Cờ sao quyết thắng lấp lánh soi sáng đường cháu đi.<br>Đi ta đi giải phóng miền Nam khi quê hương nhà vẫn còn bóng quân xâm lược,<br>thì ta còn chiến đấu quét sạch nó đi.<br>Lời Bác thúc giục chúng ta, chiến đấu cho quê nhà Nam Bắc hòa lời ca."</strong><br><br><iframe style="opacity: .2;" src="./assets/m.mp3" title="bgrMS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', ''] //20
 ];
 
 var answers = [

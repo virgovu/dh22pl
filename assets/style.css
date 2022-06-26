@@ -469,3 +469,13 @@ html {
 .z2 {
     z-index: 2 !important;
 }
+
+.botbar > iframe {
+    width: 20%;
+    height: 100%;
+}
+
+.content > iframe {
+    width: 120px;
+    height: 57.5px;
+}

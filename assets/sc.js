@@ -33,10 +33,10 @@ infoQ.innerHTML = `${i+1}/20`;
 console.log(i);
 
 function test(x) {
-    i = i+x;
-    infoQ.innerHTML = `${i+1}/20`;
-
-    if (i<20) {
+    if (i<19) {
+        i = i+x;
+        infoQ.innerHTML = `${i+1}/20`;
+        
         varTxt.innerHTML = '';
         varTxt.classList.remove("rightAns");    
         varA.classList.remove("rightAns");    
@@ -185,4 +185,22 @@ function exp() {
         var local  = document.body.querySelectorAll('.imgBigJS');
         local[0].classList.remove("dspn");
     }
+}
+
+var btnExp = document.querySelector('.bnt_exp');
+var myAudio = document.getElementById("myAudio");
+// myAudio.play();
+
+var promise = myAudio.play();
+
+console.log(promise);
+
+if (promise !== undefined) {
+  promise.then(_ => {
+    // Autoplay started!
+  }).catch(error => {
+    // Autoplay was prevented.
+    // btnExp.addEventListener("click", myAudio.play());
+    
+  });
 }

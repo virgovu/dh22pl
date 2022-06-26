@@ -17,8 +17,7 @@
 
         <div class="z1 topbar"></div>
         <div class="z1 topbar topbar_real">
-            <embed src="./assets/m.mp3" loop="true" autostart="true" width="2"
-            height="0">
+            
             <div class="infoQ">hmmm</div>
             <div class="logo">
                 <div class="logo_1"></div>
@@ -52,10 +51,15 @@
             <div class="btn bnt_left" onclick="test2(-1)"></div>
             <div class="btn bnt_right" onclick="test(1)"></div>
             <div class="btn bnt_exp" onclick="exp()"></div>
+            <!-- <div class="btn bnt_exp"></div> -->
+            <!-- <iframe width="20%" height="100%" src="https://www.youtube.com/embed/2iidlwQ-NfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <iframe style="opacity: .2;" src="./assets/m.mp3" title="bgrMS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 
-    <audio src="./assets/m.mp3" autoplay loop></audio>
+    <audio id="myAudio" autoplay loop>
+        <source src="./assets/m.mp3" type="audio/mpeg" allow="autoplay">
+      </audio>
 </body>
 </html>
 <script src="./assets/array.js"></script>
